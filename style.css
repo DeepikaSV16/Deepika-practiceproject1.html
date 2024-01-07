@@ -1,0 +1,81 @@
+:root
+{
+    --red:rgb(81, 5, 5);
+    --yellow:rgb(198, 185, 43);
+    --white:rgb(252, 249, 249);
+    --orange:rgb(255, 165, 0);
+
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image:url('../media/img1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color:var(--white);
+}
+header a{
+    text-decoration:wavy;
+    color:rgb(81, 5, 5);
+
+}
+header
+{
+    display:flex;
+    padding :1em;
+}
+#logo{
+    font-weight: bold;
+    flex:3;
+    font-size:  2.5em;
+    text-shadow: 10px 10px 10px rgb(246, 111, 14),-10px -10px 10px rgb(246, 111, 14);
+}
+nav{
+    flex:2;
+    display: flex;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 5px 5px 10px rgb(255, 68, 0),-5px -5px 10px rgb(112, 5, 5);
+}
+nav a{
+    flex: 0.5;
+    font-size: bold;
+}
+nav a:hover{
+    color:rgb(31, 21, 4);
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    height:50vh;
+    justify-content: center;
+    padding :1em;
+}
+.tag1{
+color:rgb(81, 5, 5);
+font-size:2em;
+font-weight: bold;
+}
+.tag2{
+    color: saddlebrown;
+    font-size:1em ;
+}
+.Main div{
+    margin-top: .75em;
+}
+.Main button{
+    width:20vw;
+    margin-top:2em;
+    border-radius:10px;
+    padding:.75em;
+    background-color: rgba(237, 106, 12, 0.477);
+    color: white;
+    border: 1px solid rgba(237,106,12,0.477);
+
+}
+.Homefoods{
+    background-color: aqua;
+}

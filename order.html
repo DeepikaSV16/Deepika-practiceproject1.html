@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="css/menustyle.css"> -->
+        <style>
+        body{
+            margin: 0;
+            display: flex;
+            background-color:rgb(140, 215, 26); 
+        }
+        .details{
+            background-color: rgba(122, 243, 8, 0.738); 
+          width: fit-content; 
+          background-image:url('../media/login1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    width: 500%;
+    color:var(--white);
+    background-position-x: center;
+    padding-left: 100px;
+        }
+         .d1{
+            background-color: rgba(120, 193, 10, 0.682);
+            margin: 20%;
+            padding:100px;
+           display: flex; 
+          justify-content: center;
+          align-items: center;
+          height:50vh;
+             width: fit-content;  
+             /* align-items: center; */
+        }
+        input,select{
+            background-color: rgb(199, 248, 114);
+            border:none;
+            border-radius: 20px;
+        }
+        button{
+            background-color: rgba(128, 255, 0, 0.705);
+            border: none;
+            border-radius: 20px;
+            color: black;
+            font-weight: bold;
+            padding: 20px;
+            
+        }
+
+        </style>
+    </head>
+    <body>
+        <div class="details">
+        <table class="d1">
+            <th colspan="2">Please Enter Your Details!</th>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="textbox"></td>
+            </tr>
+            <tr>
+                <td>Land Mark</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Payment Method</td>
+                <td><select>
+                    <option>Select</option>
+                    <option>Cash On Delivery</option>
+                    <option>Online Pay</option>
+                </select></td>
+            </tr>
+        </table>
+
+        <a href="index.html" style="margin: 20px;"><button style="color: black; ">HOME</button></a>
+        </div>
+    </body>
+</html>
